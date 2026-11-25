@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://developer.amd.com.cn/radeon/api/v1",
+  "apiKey": "",
+  "model": "Gemma-4-31B-IT",
+  "tokenLimitParameter": "max_tokens",
+  "maxGeneratedTokens": 10000,
+  "host": "127.0.0.1",
+  "port": 8787,
+  "timeoutMs": 120000,
+  "allowedOrigins": []
+}
