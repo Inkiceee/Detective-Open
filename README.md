@@ -40,6 +40,22 @@
 
 如需在本机运行代理或配置自己的服务，请参阅 [AI 配置指南](terminal-ai/README.md)。版本内容见 [更新记录](CHANGELOG.md)。
 
+## 共同开发
+
+### [@continue-sun-coder](https://github.com/continue-sun-coder)
+
+- 设计并实现终端核心框架 `TerminalManager`，包括状态机、命令分发、计时系统、SOS 视频播放、死亡和重启流程。
+- 实现 `LoginSystem` 登录系统、`HpBar` 生命值组件、`SaveSystem` 多存档系统及 `VideoPlayer` 广告视频封装。
+- 设计 `CharacterData` 静态数据层并搭建初始结构，完成 `CharacterSystem` 人物档案系统的初版。
+- 实现 `MainMenu` 主菜单，搭建 `MainMenu.scene` 和 `Terminal.scene` 并完成组件绑定。
+
+### [@Inkiceee](https://github.com/Inkiceee)
+
+- 完整实现推箱子小游戏，包括 `GameManager`、`MapManager`、`PlayerInputs`、`push boxes.scene` 以及 `Level1` 至 `Level5` 的关卡数据。
+- 实现 `AccuseSystem` 真凶指认和 7 种结局判定，以及 `AchievementSystem` 成就系统和成就解锁逻辑。
+- 后续完善并接入 `CharacterSystem` 人物档案系统，完整实现时间线答题系统。
+- 录入剧情、证物、证词、时间线题库和结局文案，后续开发并接入「喵」AI 对话功能。
+
 ## 许可证
 
 项目原创代码使用 [MIT 许可证](LICENSE)。字体、Cocos Creator 运行时和游戏素材按各自的授权条款提供，详见 [第三方许可与素材说明](THIRD_PARTY_NOTICES.md)。
