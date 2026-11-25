@@ -4,6 +4,10 @@
 
 ## 网页试玩
 
+**[在 itch.io 在线试玩](https://inkiceee.itch.io/cyber-detective)**，用桌面浏览器打开即可游玩。
+
+### 下载到本机
+
 1. 从 [最新发布页](https://github.com/Inkiceee/Detective-Open/releases/latest) 下载 `CyberDetective-v2.0.1-web.zip` 并解压。
 2. 在含有 `index.html` 的目录打开 PowerShell 或终端。如果电脑装有 Python 3，运行以下命令启动本地静态服务器。
 
